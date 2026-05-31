@@ -1,1 +1,17 @@
-<Solution />
+<Solution>
+  <Folder Name="/1-Presentation/">
+    <Project Path="GestaoCatalogo.Api/GestaoCatalogo.Api.csproj" />
+  </Folder>
+  <Folder Name="/2-Application/">
+    <Project Path="GestaoCatalogo.Application/GestaoCatalogo.Application.csproj" />
+  </Folder>
+  <Folder Name="/3-Domain/">
+    <Project Path="GestaoCatalogo.Domain/GestaoCatalogo.Domain.csproj" />
+  </Folder>
+  <Folder Name="/4-Infrastructure/">
+    <Project Path="GestaoCatalogo.Infrastructure/GestaoCatalogo.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/5-CrossCutting/">
+    <Project Path="GestaoCatalogo.CrossCutting/GestaoCatalogo.CrossCutting.csproj" />
+  </Folder>
+</Solution>

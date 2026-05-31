@@ -1,0 +1,74 @@
+# Build e binários
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Configurações do Visual Studio
+.vs/
+../.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Diretórios de publicação
+publish/
+dist/
+Release/
+Debug/
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+
+# Arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Test.json
+
+# Logs e dumps
+*.log
+*.dmp
+
+# Testes e cobertura
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Ferramentas e IDEs
+.idea/
+*.iml
+*.dbmdl
+*.jfm
+*.tss
+
+# Docker e containers
+docker-compose.override.yml
+.env
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Git
+*.orig
+*.rej
+*.patch
+*.diff
