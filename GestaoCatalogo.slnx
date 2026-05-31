@@ -14,4 +14,7 @@
   <Folder Name="/5-CrossCutting/">
     <Project Path="GestaoCatalogo.CrossCutting/GestaoCatalogo.CrossCutting.csproj" />
   </Folder>
+  <Folder Name="/Itens de Solução/">
+    <File Path="README.md" />
+  </Folder>
 </Solution>

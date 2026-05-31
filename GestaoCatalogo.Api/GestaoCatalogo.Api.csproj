@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.56.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GestaoCatalogo.Application\GestaoCatalogo.Application.csproj" />
     <ProjectReference Include="..\GestaoCatalogo.CrossCutting\GestaoCatalogo.CrossCutting.csproj" />
   </ItemGroup>
