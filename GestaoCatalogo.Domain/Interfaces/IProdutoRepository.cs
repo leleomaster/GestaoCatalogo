@@ -1,0 +1,12 @@
+﻿using GestaoCatalogo.Domain.Entities;
+
+namespace GestaoCatalogo.Domain.Interfaces;
+
+public interface IProdutoRepository
+{
+    Task<ProdutoEntity?> GetByIdAsync(int id);
+    Task<IEnumerable<ProdutoEntity>?> GetAllAsync();
+    Task AddAsync(ProdutoEntity produto);
+    Task DeleteAsync(int id);
+    Task<ProdutoEntity?> UpdateAsync(ProdutoEntity produto);
+}

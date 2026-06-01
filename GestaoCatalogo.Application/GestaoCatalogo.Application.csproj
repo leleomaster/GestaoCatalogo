@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Identity.Client" Version="4.56.0" />
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.84.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestaoCatalogo.CrossCutting\GestaoCatalogo.CrossCutting.csproj" />
     <ProjectReference Include="..\GestaoCatalogo.Domain\GestaoCatalogo.Domain.csproj" />
     <ProjectReference Include="..\GestaoCatalogo.Infrastructure\GestaoCatalogo.Infrastructure.csproj" />
   </ItemGroup>

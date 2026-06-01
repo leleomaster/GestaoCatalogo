@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
-    <PackageReference Include="Microsoft.Identity.Client" Version="4.56.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.84.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GestaoCatalogo.Application\GestaoCatalogo.Application.csproj" />
     <ProjectReference Include="..\GestaoCatalogo.Infrastructure\GestaoCatalogo.Infrastructure.csproj" />
   </ItemGroup>
 
